@@ -43,7 +43,7 @@ header {
 
 nav{
     display: flex;
-    gap: 15px; /* Espaço entre os botões */
+    gap: 15px;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
@@ -157,15 +157,15 @@ input[type="radio"] {
     text-align: center;
 }
 
-.navegacao {
+/*.navegacao {
     position: absolute;
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-}
+}*/
 
-.botaoslide {
+/*.botaoslide {
     width: 15px;
     height: 15px;
     background-color: white;
@@ -173,7 +173,7 @@ input[type="radio"] {
     margin: 05px;
     cursor: pointer;
     transition: background-color 0.3s;
-}
+}*/
 
 
 input#slide1:checked ~ .slides {
