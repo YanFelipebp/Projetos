@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>PETComp</title>
+        <link rel="stylesheet" href="Style.css">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="caixa-cabecalho">
+                <h1 class="subtitulo">Seja bem-vindo à</h1>
+            </div>
+
+            <h1 class="titulo">ACALOURADA</h1>
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIhPCEbRAbAEKSHH7Km3ypoNCSu1sVRaeYRQ&s"
+                 alt="Logo PETComp UFMA" class="logo">
+
+            <nav>
+                <label class="botao" for="slide1">Sobre</label>
+                <label class="botao" for="slide2">Programação</label>
+                <label class="botao" for="slide3">Inscrição </label>
+            </nav>
+        </header>
+
+        <div class="carrossel">
+            <input type="radio" id="slide1" name="carrossel" checked>
+            <input type="radio" id="slide2" name="carrossel" >
+            <input type="radio" id="slide3" name="carrossel" >
+
+            <div class="slides">
+                <div class="slide" id="apresentacao">
+                    <h2 class = "tituloslide">Sobre o evento</h2>
+                    <p class="textoslide"> A Acalourada é uma atividade de recepção dos estudantes ingressantes no curso de Ciência da Computação.
+                    </p>
+
+                    <h3 class="subtituloslide">História</h3>
+                    <p class="textoslide">
+                        Essa atividade já vem sendo desenvolvida de forma presencial há mais de 6 anos em conjunto com a Coordenação de Computação, o Departamento de Informática e o PET de Computação.
+                    </p>
+
+                    <h3 class="subtituloslide">Objetivos</h3>
+                    <p class="textoslide">
+                        O objetivo da Acalourada é guiar os alunos ingressantes através da universidade e do curso, além de mostrar as oportunidades que a universidade oferece tanto no âmbito pessoal como profissional.
+                    </p>
+                </div>
+
+                <div class="slide" id="programacao">
+                    <h2 class="tituloslide">Programação</h2>
+                    <p class="textoslide">Acompanhe aqui a programação da Acalourada</p>
+
+                    <div class="programacao-container">
+                        <!-- dia 1 -->
+                        <div class="coluna">
+                            <h3 class="subtituloslide">Dia 11/11</h3>
+                            <p class="textomaior">Manhã - Auditório 1</p>
+                            <p class="textoslide"><strong>9:00</strong> - Abertura e PETComp</p>
+                            <p class="textoslide"><strong>9:30</strong> - Dinâmica</p>
+                            <p class="textoslide"><strong>10:30</strong> - Apresentação do Curso</p>
+
+                            <p class="textomaior">Tarde - NCA</p>
+                            <p class="textoslide"><strong>14:00</strong> - Palestra Núcleo de Computação</p>
+                            <p class="textoslide"><strong>16:00</strong> - Liga Acadêmica de Bioinformática</p>
+                        </div>
+                        <!-- dia 2 -->
+                        <div class="coluna">
+                            <h3 class="subtituloslide">Dia 12/11</h3>
+                            <p class="textomaior">Manhã - Auditório 1</p>
+                            <p class="textoslide"><strong>9:00</strong> - Sociedade Brasileira de Computação</p>
+                            <p class="textoslide"><strong>9:30</strong> - Minicurso Scratch</p>
+
+                            <p class="textomaior">Tarde</p>
+                            <p class="textoslide"><strong>14:00</strong> - Mesa Redonda com Egressos</p>
+                            <p class="textoslide"><strong>16:00</strong> - Palestra: Mulheres na Computação</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide" id="inscricao">
+                    <h2 class="tituloslide">Inscreva-se</h2>
+                    <p class="subtituloslides">Para participar, preencha o formulário de inscrição abaixo.</p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome">
+                    <br>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" placeholder="Digite seu e-mail">
+                    <br>
+                    <label>Nível de Conhecimento:</label>
+                    <div class="opcoes">
+                        <input type="radio" id="baixo" name="nivel">
+                        <label for="baixo">Baixo</label>
+                        <input type="radio" id="medio" name="nivel">
+                        <label for="medio">Médio</label>
+                        <input type="radio" id="alto" name="nivel">
+                        <label for="alto">Alto</label>
+                    </div>
+                </div>
+            </div>
+            <div class="navegacao">
+                <label for="slide1" class="botaoslide"></label>
+                <label for="slide2" class="botaoslide"></label>
+                <label for="slide3" class="botaoslide"></label>
+            </div>
+        </div>
+
+        <footer>
+            <h3 class="titulo-footer">Contatos</h3>
+
+            <div class="caixa-rodape">
+                <div class="footer-item">
+                    <img src="https://petcompufma.org/assets/svg/email%20icon.svg"
+                     alt="email icon" class="icone">
+                    <p class="texto-footer">petcomputacao.ufma@gmail.com</p>
+                </div>
+
+
+                <div class="footer-item">
+                    <img src="https://petcompufma.org/assets/svg/map%20icon.svg"
+                    alt="map icon" class="icone">
+                    <p class="texto-footer">Av. dos Portugueses, 1966 - Vila Bacanga,<br> São Luís - MA, 65080-805, CCET - Bloco 2</p>
+                </div>
+
+                <div class="footer-item">
+                    <img src="https://petcompufma.org/assets/svg/instagram%20icon.svg"
+                    alt="instagram icon" class="icone">
+                    <p class="texto-footer">@PetCompUfma</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+</html>
